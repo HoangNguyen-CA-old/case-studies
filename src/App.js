@@ -11,7 +11,7 @@ function App() {
     <div className='App'>
       <Router>
         <Switch>
-          <Route path='/0'>
+          <Route path='/projects/0'>
             <Project markdown={RecipeApp}></Project>
           </Route>
 

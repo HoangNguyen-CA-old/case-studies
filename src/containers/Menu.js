@@ -14,7 +14,7 @@ const Container = styled.div`
 
 export class Menu extends Component {
   handleRecipeOpen = () => {
-    this.props.history.push('/0');
+    this.props.history.push('/projects/0');
   };
 
   render() {
