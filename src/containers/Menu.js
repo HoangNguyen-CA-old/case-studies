@@ -6,6 +6,10 @@ import ProjectLink from '../components/ProjectLink';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+  background-color: #abb7b7;
+  min-height: 100vh;
 `;
 
 export class Menu extends Component {
